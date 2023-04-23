@@ -1,6 +1,6 @@
 # Momature
 
-## Submission for LeanIn Hacks 4.0
+## Submission for MT project
 
 ![Frontend](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS%2FBootstrap-green)
 <br>
