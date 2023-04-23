@@ -19,61 +19,69 @@
 </head>
 
 <body>
+
   <div class="container-fluid px-0"><!--NAVBAR-->
 
-    <section class="home" style="background-image: url('../assets/bg2.png');">
-      <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-        <a class="navbar-brand" href="#">
-          <img src="..\assets\logo.png" style="width: 100%; height: auto;" class="d-inline-block align-top" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3"
-          aria-controls="collapsingNavbar3" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-          <ul class="nav navbar-nav ml-auto w-100 justify-content-end mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Music</a>
-            </li>
-            <li class="nav-item">
+    <section class="home" id="videoDiv">
+      <video id="video1" preload="" autoplay="" muted="" playsinline="" loop="">
+        <source src="../assets/MOMATURE1.mp4" type="video/mp4" />
+      </video>
+      <div id="videoMessage">
+        <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+          <a class="navbar-brand" href="#">
+            <img src="..\assets\logo.png" style="width: 100%; height: auto;" class="d-inline-block align-top" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3"
+            aria-controls="collapsingNavbar3" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="#">Music</a>
+              </li>
+              <!-- <li class="nav-item">
               <a class="nav-link" href="vr.html">Virtual Space</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://discord.gg/vzuQ6EFk" target="_blank">Community</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="row bg-container">
-        <div class="col-md-6">
-          <div class="img-wrapper">
-            <img src="../assets/music.png" alt="">
+            </li> -->
+              <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="https://discord.gg/vzuQ6EFk"
+                  target="_blank">Community</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="intro">
-            <h3><strong>Nurture Your Little One with the Power of Music</strong></h3>
-            <p class="pt-4">Let the power of music take you and your little one on a journey of peace, comfort and love.
-              Start listening today!"</p>
+        </nav>
 
-            <button type="button" class="btn btn-primary section1 mt-4">Read More</button>
+        <div class="row bg-container" style="color: white;">
+          <div class="col-md-6">
+            <div class="img-wrapper">
+              <!-- <img src="../assets/music.png" alt=""> -->
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="intro">
+              <h3><strong>Nurture Your Little One with the Power of Music</strong></h3>
+              <p class="pt-4">Let the power of music take you and your little one on a journey of peace, comfort and
+                love.
+                Start listening today!"</p>
+
+              <button type="button" class="btn btn-primary section1 mt-4">Read More</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!--SPOTIFY-->
-    <div>
+    <div style="margin-top: 580px;">
       <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/artist/2ViQDZcGGoxjPKGsSudBFx?utm_source=generator" width="100%"
         height="352" frameBorder="0" allowfullscreen=""
@@ -124,7 +132,7 @@
               <li><a href="dashboard.html">Dashboard</a></li>
               <li><a href="#">Music</a></li>
               <li><a href="https://discord.gg/vzuQ6EFk" target="_blank">Community</a></li>
-              <li><a href="vr.html">Virtual Space</a></li>
+              <!-- <li><a href="vr.html">Virtual Space</a></li> -->
             </ul>
           </div>
           <div class="col-md-6 item text">
