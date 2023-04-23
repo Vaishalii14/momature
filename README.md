@@ -43,7 +43,7 @@ Home Page contains information about various sections of website like services, 
 <hr>
 It contains blogs on various topics like exercise, diet, nutrition and parenting at one place for the ease of users.
 
-<img src="ReadMe\blogs.png" alt="Blogs" width="700/">
+<img src="ReadMe\blogsPage.JPG" alt="Blogs" width="700/">
 
 ### Music
 <hr>
