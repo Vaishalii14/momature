@@ -68,7 +68,7 @@ Users can contact the Momature Team in case of queries by dropping the email and
 <hr>
 
 ## Useful Links
-- [Deployed Website](https://LeanIn-Hacks.palakjain03.repl.co)
+- [Deployed Website](https://vaishalii14.github.io/momature/)
 <br/>[(Back to top)](#table-of-contents)
 <hr>
 
